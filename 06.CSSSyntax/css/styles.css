@@ -1,0 +1,169 @@
+
+
+
+* {
+   background-color:gainsboro;
+}
+
+/*
+
+
+.btnGreen {
+   background-color: #12d643;
+   border-radius: 10%;
+  display:inline-block;
+   padding: 1%;
+   text-decoration: dashed;
+   text-transform: uppercase;
+   
+}
+
+
+.btnFav{
+   background-color: #a7a1aa;
+   border-radius: 50px;
+   color: #d61233;
+   display:inline-block;
+   font-size: large;
+   height: 10%;
+   line-height: 30px;
+   text-align: center;
+   text-decoration: #d61233;
+   width: 30px;
+}
+
+.btnFav:hover{
+   
+   background-color: #cfc7ca;
+   border-radius: 0 15px 15px 0;
+   color: rgb(199, 20, 20);
+   width: 50px;
+   height: 50px;
+}
+
+.btnTiktok{
+   background-color: #a7a1aa;
+   background-image: url("../CssButtons/img/logo-tiktok.png");
+   background-repeat: round;
+   background-position-x: -10px;
+   background-position-y: -10px;
+   background-size: cover;
+    display:inline-block;
+   font-size: 30px;
+   padding: 30px;
+   text-decoration: wavy;
+}
+
+.btnTiktok:hover {
+   background-color: #ee3c87;
+   border-radius: 0 15px 15px 0;
+   color: rgb(197, 40, 40);
+   width: 300px;
+}
+
+
+p{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+   */
+
+   /* =====================
+   BASE
+   ===================== */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+    color: #000;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+/* =====================
+   BUTTON GROEN
+   ===================== */
+.btnGreen {
+    display: inline-block;
+    background-color: #a8c94f;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+/* HOVER */
+.btnGreen:hover {
+    background-color: #97b93f;
+    color: #666;
+    cursor: pointer;
+}
+
+/* =====================
+   BUTTON FAVORI
+   ===================== */
+.btnFav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    background-color: #e6dccd;
+    color: #7a1b0c;
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 22px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* HOVER */
+.btnFav:hover {
+    background-color: #d9cbb8;
+    color: red;
+    cursor: pointer;
+    transform: scale(1.15); 
+}
+
+/* =====================
+   BUTTON TIKTOK
+   ===================== */
+.btnTiktok {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f1f1f1;
+    color: #666;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* logo TikTok */
+.btnTiktok::before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    background-image: url("../CssButtons/img/logo-tiktok.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+/* HOVER */
+.btnTiktok:hover {
+    background-color: #e0e0e0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
