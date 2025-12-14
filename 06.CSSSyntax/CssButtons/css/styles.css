@@ -151,10 +151,10 @@ h2 {
 
 /* logo TikTok */
 .btnTiktok::before {
-    content: "";
+    content: " ";
     width: 26px;
     height: 26px;
-    background-image: url("../CssButtons/img/logo-tiktok.png");
+    background-image: url("../img/logo-tiktok.png");
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
