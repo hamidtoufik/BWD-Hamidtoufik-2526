@@ -1,0 +1,115 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+
+
+
+/*
+<ul>: border, border-radius (3px), list-style, padding, text-align, width
+<li>: border-top
+<a>: text-decoration
+<span>: color (#99c63f), display, font-size, height, line-height, width
+<span> hover/active: color (#abdb4c)
+*/
+*{
+   background-color: rgb(199, 212, 212);
+}
+.menu-social-vert
+{
+   border: 10px;
+   border-radius: 10px;
+   list-style: none;
+   padding: 0;
+   text-align: left;
+   width: 50px;
+
+}
+
+.menu-social-vert li a
+{
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 45px;
+   height: 45px;
+   background-color: #cec4c4;
+    
+   color: #6b8b12;
+   border: 2px solid #a8c94f;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+.menu-social-vert li a:hover
+{
+   background-color: rgb(36, 219, 219);
+   color: aliceblue;
+   cursor: pointer;
+}
+
+
+
+/*
+<ul>: background-color (#abdb4c), font-family, list-style, padding, en display: flex om de links naast elkaar te zetten 
+<a>: color (#444), display (block), padding, text-decoration, text-underline-offset
+<a> bij hover/active: text-decoration */
+
+
+.menu-hor-green
+{
+   background-color: #abdb4c;
+   
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0;
+   list-style: none;
+   
+   padding: 0%;
+   display: flex;
+
+}
+
+.menu-hor-green li a {
+   margin: 0;
+   display: block;
+   padding: 15px 20px;
+   color: #ffffff;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 16px;
+   transition: background-color 0.3s ease;
+
+   /*actif li*/
+
+ }
+  
+ .menu-hor-green li.active a {
+   background-color: #abdb4c;
+   font-weight: bold;
+ }
+ /*hover*/
+
+ .menu-hor-green li a:hover{
+   text-decoration: underline;
+   background-color: #1ef302;
+   cursor: pointer;
+ }
+
+
+
+
+
